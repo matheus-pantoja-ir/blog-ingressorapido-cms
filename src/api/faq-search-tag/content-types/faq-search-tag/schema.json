@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_search_tags",
+  "info": {
+    "singularName": "faq-search-tag",
+    "pluralName": "faq-search-tags",
+    "displayName": "faq_search_tag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "faq_questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq-question.faq-question",
+      "mappedBy": "faq_search_tag"
+    }
+  }
+}
