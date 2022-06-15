@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faq-category",
     "pluralName": "faq-categories",
-    "displayName": "faq_category"
+    "displayName": "faq_category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
